@@ -1,0 +1,144 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1B1B1B;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+
+
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+a:hover {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+
+
+.imagenlogo {
+    width: 50%;
+    height: auto;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.frase {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.action {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+
+
+
+
+
+
+.project {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 180px;
+
+}
+
+.foto img {
+    width: 100%;
+}
+
+
+
+
+.final {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 152px;
+    margin-bottom: 100px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+
+
+.menufooter {
+    margin-right: 48px;
+    margin-left: 48px;
+    margin-bottom: 80px;
+}
+
+.texto {
+    font-weight: bold;
+}
+
+.fotomobile{
+display: none;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+    .fotomobile{
+        display: block;
+        width: 100%;
+    }
+.fotodesktop{
+    display: none;
+}
+
+
+
+}
